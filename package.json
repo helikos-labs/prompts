@@ -1,0 +1,23 @@
+{
+  "name": "prompts",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test scripts/*.test.mjs",
+    "dev": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "devDependencies": {
+    "marked": "^15.0.12",
+    "wrangler": "^4.140.0",
+    "yaml": "^2.9.1"
+  },
+  "description": "Tested Claude prompts for building, shipping and running small AI-powered web apps.",
+  "license": "MIT AND CC-BY-4.0",
+  "engines": {
+    "node": ">=22"
+  }
+}

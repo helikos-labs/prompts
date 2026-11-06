@@ -1,0 +1,11 @@
+{
+  "owner": "helikos-labs",
+  "visibility": "public",
+  "host": "prompts.helikos.dev",
+  "variant": "static",
+  "theme": "neutral",
+  "description": "A public library of tested Claude prompts, skills and Claude Code workflows for building, shipping and running small AI-powered web apps.",
+  "realm": "town",
+  "type": "Library · Claude Prompts",
+  "status": "Lights on"
+}

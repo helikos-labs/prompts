@@ -1,0 +1,23 @@
+{
+  "title": "Prompts",
+  "tagline": "Prompts that help you build, ship and run small AI-powered web apps.",
+  "url": "https://prompts.helikos.dev",
+  "repo": "https://github.com/helikos-labs/prompts",
+  "branch": "main",
+  "staleAfterMonths": 6,
+  "categories": [
+    { "id": "app-specs", "label": "App specs", "blurb": "Specs and briefs to write before any code." },
+    { "id": "ai-features", "label": "AI features", "blurb": "Prompts and patterns that run inside your app." },
+    { "id": "claude-code", "label": "Claude Code", "blurb": "Workflows, project instructions, settings and PRs." },
+    { "id": "design", "label": "Design", "blurb": "Design systems, layout contracts and figures." },
+    { "id": "deploy-hosting", "label": "Deploy & hosting", "blurb": "Pipelines, infrastructure changes and hardening." },
+    { "id": "qa-debugging", "label": "QA & debugging", "blurb": "Audits, tests and failure paths." },
+    { "id": "data-geospatial", "label": "Data & geospatial", "blurb": "Finding, loading and modelling spatial data." }
+  ],
+  "difficulty": ["beginner", "intermediate", "advanced"],
+  "useAs": {
+    "prompt": "Paste into a Claude chat",
+    "skill": "Install as a skill",
+    "claude-code": "Run in Claude Code"
+  }
+}

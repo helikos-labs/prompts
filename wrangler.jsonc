@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "prompts",
+  "compatibility_date": "2026-11-06",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  },
+  // Workers Builds Previews (non-main branches): `wrangler preview` needs this block. Previews don't
+  // inherit top-level vars or bindings: repeat the ones the app reads, and add a Durable Object binding here
+  // for each one the code reads from env.
+  "previews": {},
+  "routes": [
+    { "pattern": "prompts.helikos.dev", "custom_domain": true }
+  ]
+}
